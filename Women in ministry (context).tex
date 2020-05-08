@@ -1,0 +1,305 @@
+
+% \version{temporary}
+% \showframe
+% \showsetups
+% \showlayout
+
+%Set up Basics
+\setuppapersize[A5, portrait]
+% \setupwhitespace[medium]
+\setupindenting[yes, medium]
+% \setuplayout[grid=yes]
+\setupalign[normal]
+
+% headers and footers
+\setupfooter[style=\it]
+\setupfootertexts[Free from\ldots. \hfill]
+\setuppagenumbering[location={footer,right}, style=normal]
+\setupbackgrounds[footer][text][topframe=on]
+\setupbackgrounds[header][text][topframe=on]
+
+
+% for the document info/catalog (reported by 'pdfinfo', for example)
+\setupinteraction[
+  state=start,  % make hyperlinks active, etc.
+  title={Free from ...},
+  subtitle={Women in the Church},
+  author={CCF},
+  keyword={template}]
+
+
+% Fonts
+\definefontfamily[gentiumplus][rm][Gentium Plus][features={default, quality}]
+\definefontfamily[notofonts][rm][Noto Serif][features={default,
+  quality}]
+
+% by default all \it \bf \bi \smallcaps \oldstyle styles are ready to use as well as ligatures but superscript requires extra settings
+\definefontfeature[f:superscript][sups=yes]
+
+% an extra \sup macro is defined for our convenience
+\define[1]\sup{\feature[+][f:superscript]#1}
+
+\setupbodyfont[gentiumplus, 10pt]
+
+\setupquotation[style=slanted]
+
+
+\startsetups[framedwhitespace]
+  \setupwhitespace[medium]
+\stopsetups
+
+\setupframedtexts[
+  width=local,
+  background=color,
+  backgroundcolor=gray,
+  style=slanted,
+  corner=round,
+  framecolor=blue,
+  rulethickness=1pt,
+  setups=framedwhitespace,
+  after={\blank[line]},
+  before={\blank[line]}]
+
+
+  \starttext
+
+\index
+  
+  \startfrontmatter
+  
+\chapter{Series introduction}      
+
+\startframedtext
+  
+\quotation{Sed dominus noster Christus veritatem se, non consuetudinem cognominavit}.
+
+\quotation{But Christ our lord has called himself truth, not custom}.
+
+(De Virginibvs Velandis, Tertullian)
+          
+\stopframedtext
+
+Tertullian was a prolific Christian writer in Carthage around 200AD
+and even in those early days of Christianity customs and traditions were becoming
+embedded in the Church that had little to do with
+Christ or the gospel. Tertullian makes the perceptive comment that Christ and the gospel is about truth
+and not about maintaining traditions and customs. What Tertullian said eighteen
+hundred years ago is even truer today. The Church has a raft of
+traditions and customs that people are led to believe are core to
+their Christian faith whereas in reality many of those beliefs have
+nothing to do with Christianity, have no biblical basis and were
+unheard of in the early Church. But they are defended and repeated
+religiously, often to the detriment of the Church and the gospel.
+
+This series is about some of those traditional customs and beliefs,
+how they came about, why they are false and why they should be
+challenged. As Christians we have a duty to defend the
+truth and when that truth conflicts with our traditions we
+have a duty to honestly re-examine those traditions, understand them for
+what they are and discard them if they are blocking or interfering with the message of the
+gospel.
+
+\stopfrontmatter
+
+\startbodymatter
+
+\chapter{Introduction}
+
+\chapter{Women in ministry}
+
+\section{The gospels}
+
+\subsection{The resurrection}
+
+A point often made is that Jesus chose twelve male apostles. But the
+women had a prominent role in the story. The apostles all hid away
+during the crucifixion and it was the women who first went to the
+tomb, are the first to see the risen Jesus and are the first to
+believe in the risen Jesus. There is a symmetry here: Eve may have
+fallen first but it was the women ho first believed in a resurrected
+Christ. It was the women who took the news to the apostles, the first
+people who were the first to spread the good news of Jesus's
+resurrection was when the women told what they had seen to the apostles.
+
+\subsection{Mary \& Martha}
+
+The story of Mary and Martha in Luke 10 is well known, the busy Martha who
+complained that her sister Mary was not doing any work.  
+
+\startframedtext
+(39) She had a sister named Mary, who sat at the Lord’s feet and listened to what he was saying.
+
+(Luke 10, NRSV)
+\stopframedtext
+
+There are several points here that would surprise a first century
+reader. Firstly Mary should not be amongst the men, she should be in
+the background doing her duties like Martha. Secondly to \quotation{sit
+  at the Lord's feet} means more than to just literally sit on the
+floor and listen to stories. It means to be a pupil. Compare it to
+Paul's short autobiography in Acts 22.
+
+\startframedtext
+(3) \quotation{I am a Jew, born in Tarsus in Cilicia, but brought up in this
+city at the feet of Gamaliel, educated strictly according to our
+ancestral law\ldots}
+
+(Acts 22, NRSV)
+\stopframedtext
+
+So Mary was an early pupil of Jesus and in those days you learnt from
+a teacher for the purposes of passing message on. Mary was learning
+from Jesus to pass the message on herself.
+
+\section{Paul}
+
+\subsection{Acts}
+It is interesting that during the crucifixion the women are free to
+wander up to the cross whilst the men hid away. Generally women were
+not seen as a threat or a danger. Women were not even allowed to give
+evidence in court and in many ways were ignored by society. But Saul
+in Acts 6 specifically is noted to target both men and women.  
+
+\startframedtext
+(3) But Saul was ravaging the church by entering house after house; dragging off both men and women, he committed them to prison.
+
+(Acts 6, NRSV)
+\stopframedtext
+
+One possible explanation is that both men and women were spreading the
+gospel and to stamp the gospel out Saul needs to lock up everyone who
+was spreading the gospel and was influential in the new movement and
+that meant both men and women.
+
+\subsection{Galatians 3}
+
+Galatians 3:28 is a key verse in the debate about women in the Church.
+
+\startframedtext
+
+  (28) There is neither Jew nor Gentile, neither slave nor free, nor
+  is there male and female, for you are all one in Christ Jesus.
+
+  (Galatians 3, NIV)
+  \stopframedtext
+
+The King James bible and the NASB both mangle this verse and put negative conjunctions
+between each of the groups \emph{``Jew nor gentile''} and \emph{``slave
+  nor free''} and \emph{``male nor female''} but this misses the point
+of what Paul is really getting at. More modern translations better
+pick up the true sense of what Paul was saying by changing the
+conjunction on the last group, just has Paul did in the Greek. The NIV was chosen deliberately because it gets this verse right.
+In the original Greek it says \emph{``Jew nor gentile''} and \emph{``slave
+  nor free''} but the final section says \emph{``neither is there male
+  AND female''}. The ESV and NRSV also correctly translate this verse.
+
+So why does Paul change the phrasing for the last group? Probably he
+is quoting Genesis 1 (\cite{Wright2004}).
+
+\startframedtext
+(27) So God created humankind in his image,
+in the image of God he created them;
+male and female he created them.
+
+(Genesis 1, NRSV)
+\stopframedtext
+
+The reference to Genesis 1 is to ensure people are aware that the
+reformed family of Abraham, now goes back to the
+very beginning, the distinction of Jew and gentile no longer matters
+and even the distinction between man and woman back in Genesis 1 no
+longer matters.   
+
+We need to remember the letter to the Galatians was all about tackling
+a Jewish/Christian influence trying to impose Jewish traditions on the
+recent Galatian, Christian converts. There is a blessing that comes from the Jewish liturgy: \emph{``thank God for not making one a gentile, a slave or a woman''. A woman
+  replaces the last section with ``for having made me according to his
+  will''.} Paul believes in a new creation, a new family of Abraham
+that can no longer pray the Jewish liturgy because the distinctions
+between slave, free, gentile, Jew, male and female no longer have any
+relevance. Paul is deliberately phrasing his statement as a parody of
+the Jewish liturgy. Paul goes on to say:
+
+\startframedtext
+(29) And if you belong to Christ, then you are Abraham’s offspring, heirs according to the promise.
+
+(Galatians 3, NRSV)
+\stopframedtext
+
+Paul is saying that the family of Abraham has been reformed and if you
+belong to Christ you are part of that family, no longer do you need to
+be a Jew, you need to \emph{``belong to Christ''}.
+
+The key issue in Galatians was circumcision. A right that marked out
+Jews from gentiles and particularly marked out Jewish men. Verse 27 is
+talking about those who are baptised having been clothed in Christ.
+The \emph{``marking out''} is now by baptism and not by circumcision.
+
+\startframedtext
+(27) As many of you as were baptized into Christ have clothed yourselves with Christ.
+
+(Galatians 3, NRSV)
+\stopframedtext
+
+So the new mark of a Christian is available to all, Jews, gentiles,
+slaves, free, men and women - there is no distinction. It was on this
+basis that Paul made his statement in verse 28 with the added point
+that even the 
+
+\subsection{1 Corinthians}
+
+One of Paul's controversial passages is 1 Corinthians 14.
+
+\startframedtext
+(34) women should be silent in the churches. For they are not
+permitted to speak, but should be subordinate, as the law also says.
+
+(35) If there is anything they desire to know, let them ask their
+husbands at home. For it is shameful for a woman to speak in church.d
+
+(36) Or did the word of God originate with you? Or are you the only ones it has reached?)
+
+(1 Corinthians 14, NRSV)
+\stopframedtext
+
+From earlier in Corinthians (1 Corinthians 11) we hear about women
+praying and prophesying and how they should dress so clearly the
+section does no mean women should be literally silent in Church. The
+reference clearly means women praying and prophesying in public, in
+the Churches. So women in the Corinthian church were definitely
+praying publicly and prophesying to the whole Church. So what is Paul
+talking about?    
+
+There is a popular view amongst scholars that the section from half
+way though verse 33 to the end of verse 36 was a later addition and
+was never written by Paul. There is some evidence for this but its not
+conclusive. Firstly that section of text is sometimes found in a
+different place in ancient manuscripts, suggesting it was a margin note
+by a scribe that was later incorporated into the text by two different
+and later scribes who incorporated it in different places. Secondly the section before
+and after are about prophesy and the verses seem to break the flow of
+the text. This view is strong amongst scholars and some modern bible
+translations take note, the NRSV adds the section in brackets, the NIV
+adds a footnote that the passage sometimes appears elsewhere in the
+text.
+
+A second view is that the majority of the women may have spoken in a
+local dialect and struggled to understand what was going on. They may
+well have chattered amongst themselves ad this chatter is what was
+being referred to here. This makes sense also in that the main thrust
+of the passage is about order in Church worship.
+
+What is the problem with head coverings. Women in Corinth wore head
+coverings, those who didn't were generally prostitutes. Possibly the
+Corinthian women were taking their freedom in Christ literally and Paul
+is saying that they need to have some cultural sensitivity  
+
+
+\subsection{1 Timothy 2}
+
+\stopbodymatter
+\stoptext
+
+% Local Variables:
+% TeX-engine: context
+% End:

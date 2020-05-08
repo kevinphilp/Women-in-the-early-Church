@@ -1,0 +1,589 @@
+\documentclass[a5paper, openany, oneside, pagesize,
+headings=standardclasses, chapterprefix=false]{scrbook}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+	\setmainfont[Ligatures=TeX]{Times New Roman}
+        %\setmainfont[Ligatures=TeX]{GentiumAlt}
+
+\usepackage{verbatim, parskip, datetime, tcolorbox, advdate, geometry,
+  hyperref, microtype}
+
+\geometry{inner=2.5cm, outer=2cm}
+
+\usepackage[headsepline,footsepline,automark]{scrlayer-scrpage}
+\clearpairofpagestyles
+\lefoot[\pagemark]{\pagemark} 
+\rofoot[\pagemark]{\pagemark} 
+\lehead{\headmark}
+\rohead{\headmark}
+
+\renewcommand*\pagemark{{\usekomafont{pagenumber}Page\nobreakspace\thepage}}
+\renewcommand*{\chapterpagestyle}{headings}
+
+\RedeclareSectionCommand[beforeskip=0pt]{chapter}
+
+% Based on quote definition plus \itshape and a new leftmargin
+\let\oldquote\quote
+\renewcommand{\quote}{
+	\list{}{
+          \leftmargin0.5cm
+          \rightmargin0.5cm
+          \rightmargin\leftmargin
+          \small
+	}
+      \item\relax\itshape}
+
+% Stops paragraphs spreading vertically      
+\raggedbottom
+
+\widowpenalty10000
+\clubpenalty10000      
+
+%---Biblatex section
+\usepackage{csquotes}
+\usepackage[british]{babel}
+\usepackage[
+	backend=biber,
+	style=authoryear,
+	natbib=true,
+	bibencoding=auto,
+	sorting=nyt,
+        ]{biblatex}
+
+\addbibresource{../../../Papers/bibliography.bib}
+        
+\hypersetup{
+  pdftitle={Women in ministry},
+  pdfauthor={Carrigaline Christian Fellowship},
+  pdfkeywords={women, ministry, Bible, Commentary},
+  pdfsubject={Bible Study},
+  hidelinks,
+  pdfdisplaydoctitle,
+  pdftex
+}
+              
+\title{\textbf{Women in ministry}}
+\subtitle{Part 1 of the \emph{Free Indeed} series.}
+
+\author{Carrigaline Christian Fellowship}
+
+%\SetDate[27/07/2017]
+%\shortdate
+\date{\today}
+
+\newtcolorbox{myquote}{colback=blue!5!white,colframe=blue!75!black,
+  fontupper=\itshape\small, parbox=false, left=0.5cm, right=0.5cm}
+
+\begin{document}
+
+\frontmatter
+\pagestyle{plain}
+
+\maketitle
+        
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{2}
+\tableofcontents
+        
+\chapter*{Series introduction}      
+
+\begin{myquote}
+  
+Sed dominus noster Christus veritatem se, non consuetudinem cognominavit.
+
+But Christ our lord has called himself truth, not custom.
+
+(De Virginibvs Velandis, Tertullian)
+          
+\end{myquote}
+
+Tertullian was a prolific Christian writer in Carthage around 200AD
+and even in those early days of Christianity customs and traditions were becoming
+embedded in the Church that had little to do with
+Christ or the gospel. Tertullian makes the perceptive comment that Christ and the gospel is about truth
+and not about maintaining traditions and customs. What Tertullian said eighteen
+hundred years ago is even truer today. The Church has a raft of
+traditions and customs that people are led to believe are core to
+their Christian faith whereas in reality many of those beliefs have
+nothing to do with Christianity, have no biblical basis and were
+unheard of in the early Church. But they are defended and repeated
+religiously, often to the detriment of the Church and the gospel.
+
+This series is about some of those traditional customs and beliefs,
+how they came about, why they are false and why they should be
+challenged. As Christians we have a duty to defend the
+truth and when that truth conflicts with our traditions we
+have a duty to honestly re-examine those traditions, understand them for
+what they are and discard them if they are blocking or interfering with the message of the
+gospel.
+
+\mainmatter
+\pagestyle{scrheadings}
+
+\chapter{Introduction}
+
+\chapter{Women in ministry}
+
+\section{The gospels}
+
+\subsection{The resurrection}
+
+A point often made is that Jesus chose twelve male apostles. But the
+women had a prominent role in the story. The apostles all hid away
+during the crucifixion and it was the women who first went to the
+tomb, are the first to see the risen Jesus and are the first to
+believe in the risen Jesus. There is a symmetry here: Eve may have
+fallen first but it was the women ho first believed in a resurrected
+Christ. It was the women who took the news to the apostles, the first
+people who were the first to spread the good news of Jesus's
+resurrection was when the women told what they had seen to the apostles.
+
+\subsection{Mary \& Martha}
+
+The story of Mary and Martha in Luke 10 is well known, the busy Martha who
+complained that her sister Mary was not doing any work.  
+
+\begin{myquote}
+(39) She had a sister named Mary, who sat at the Lord’s feet and listened to what he was saying.
+
+(Luke 10, NRSV)
+\end{myquote}
+
+There are several points here that would surprise a first century
+reader. Firstly Mary should not be amongst the men, she should be in
+the background doing her duties like Martha. Secondly to \emph{``sit
+  at the Lord's feet''} means more than to just literally sit on the
+floor and listen to stories. It means to be a pupil. Compare it to
+Paul's short autobiography in Acts 22.
+
+\begin{myquote}
+(3) ``I am a Jew, born in Tarsus in Cilicia, but brought up in this
+city at the feet of Gamaliel, educated strictly according to our
+ancestral law\ldots''
+
+(Acts 22, NRSV)
+\end{myquote}
+
+So Mary was an early pupil of Jesus and in those days you learnt from
+a teacher for the purposes of passing message on. Mary was learning
+from Jesus to pass the message on herself.
+
+\section{Paul}
+
+\subsection{Acts}
+
+\subsubsection{Acts 2}
+
+\subsubsection{Acts 6}
+It is interesting that during the crucifixion the women are free to
+wander up to the cross whilst the men hid away. Generally women were
+not seen as a threat or a danger. Women were not even allowed to give
+evidence in court and in many ways were ignored by society. But Saul
+in Acts 6 specifically is noted to target both men and women.  
+
+\begin{myquote}
+(3) But Saul was ravaging the church by entering house after house; dragging off both men and women, he committed them to prison.
+
+(Acts 6, NRSV)
+\end{myquote}
+
+One possible explanation is that both men and women were spreading the
+gospel and to stamp the gospel out Saul needs to lock up everyone who
+was spreading the gospel and was influential in the new movement and
+that meant both men and women.
+
+
+\subsection{Galatians 3}
+
+Galatians 3:28 is a key verse in the debate about women in the Church.
+
+\begin{myquote}
+
+  (28) There is neither Jew nor Gentile, neither slave nor free, nor
+  is there male and female, for you are all one in Christ Jesus.
+
+  (Galatians 3, NIV)
+  \end{myquote}
+
+The King James bible and the NASB both mangle this verse and put negative conjunctions
+between each of the groups \emph{``Jew nor gentile''} and \emph{``slave
+  nor free''} and \emph{``male nor female''} but this misses the point
+of what Paul is really getting at. More modern translations better
+pick up the true sense of what Paul was saying by changing the
+conjunction on the last group, just has Paul did in the Greek. The NIV was chosen deliberately because it gets this verse right.
+In the original Greek it says \emph{``Jew nor gentile''} and \emph{``slave
+  nor free''} but the final section says \emph{``neither is there male
+  AND female''}. The ESV and NRSV also correctly translate this verse.
+
+So why does Paul change the phrasing for the last group? Probably he
+is quoting Genesis 1 (\cite{Wright2004}).
+
+\begin{myquote}
+(27) So God created humankind in his image,
+in the image of God he created them;
+male and female he created them.
+
+(Genesis 1, NRSV)
+\end{myquote}
+
+The reference to Genesis 1 is to ensure people are aware that the
+reformed family of Abraham, now goes back to the
+very beginning, the distinction of Jew and gentile no longer matters
+and even the distinction between man and woman back in Genesis 1 no
+longer matters.   
+
+We need to remember the letter to the Galatians was all about tackling
+a Jewish/Christian influence trying to impose Jewish traditions on the
+recent Galatian, Christian converts. There is a blessing that comes from the Jewish liturgy: \emph{``thank God for not making one a gentile, a slave or a woman''. A woman
+  replaces the last section with ``for having made me according to his
+  will''.} Paul believes in a new creation, a new family of Abraham
+that can no longer pray the Jewish liturgy because the distinctions
+between slave, free, gentile, Jew, male and female no longer have any
+relevance. Paul is deliberately phrasing his statement as a parody of
+the Jewish liturgy. Paul goes on to say:
+
+\begin{myquote}
+(29) And if you belong to Christ, then you are Abraham’s offspring, heirs according to the promise.
+
+(Galatians 3, NRSV)
+\end{myquote}
+
+Paul is saying that the family of Abraham has been reformed and if you
+belong to Christ you are part of that family, no longer do you need to
+be a Jew, you need to \emph{``belong to Christ''}.
+
+The key issue in Galatians was circumcision. A right that marked out
+Jews from gentiles and particularly marked out Jewish men. Verse 27 is
+talking about those who are baptised having been clothed in Christ.
+The \emph{``marking out''} is now by baptism and not by circumcision.
+
+\begin{myquote}
+(27) As many of you as were baptized into Christ have clothed yourselves with Christ.
+
+(Galatians 3, NRSV)
+\end{myquote}
+
+So the new mark of a Christian is available to all, Jews, gentiles,
+slaves, free, men and women - there is no distinction. It was on this
+basis that Paul made his statement in verse 28 with the added point
+that even the 
+
+\subsection{1 Corinthians}
+
+One of Paul's controversial passages is 1 Corinthians 14.
+
+\begin{myquote}
+(34) women should be silent in the churches. For they are not
+permitted to speak, but should be subordinate, as the law also says.
+
+(35) If there is anything they desire to know, let them ask their
+husbands at home. For it is shameful for a woman to speak in church.d
+
+(36) Or did the word of God originate with you? Or are you the only ones it has reached?)
+
+(1 Corinthians 14, NRSV)
+\end{myquote}
+
+From earlier in Corinthians (1 Corinthians 11) we hear about women
+praying and prophesying and how they should dress so clearly the
+section does not mean women should be literally silent in Church. The
+reference clearly means women praying and prophesying in public, in
+the Churches. So women in the Corinthian church were definitely
+praying publicly and prophesying to the whole Church. So what is Paul
+talking about?    
+
+There is a popular view amongst scholars that the section from half
+way though verse 33 to the end of verse 36 was a later addition and
+was never written by Paul. There is some evidence for this but its not
+conclusive. Firstly that section of text is sometimes found in a
+different place in ancient manuscripts, suggesting it was a margin note
+by a scribe that was later incorporated into the text by two different
+and later scribes who incorporated it in different places. Secondly the section before
+and after are about prophesy and the verses seem to break the flow of
+the text. This view is strong amongst scholars and some modern bible
+translations take note, the NRSV adds the section in brackets, the NIV
+adds a footnote that the passage sometimes appears elsewhere in the
+text.
+
+A second view is that the majority of the women may have spoken in a
+local dialect and struggled to understand what was going on. They may
+well have chattered amongst themselves ad this chatter is what was
+being referred to here. This makes sense also in that the main thrust
+of the passage is about order in Church worship.
+
+What is the problem with head coverings. Women in Corinth wore head
+coverings, those who didn't were generally prostitutes. Possibly the
+Corinthian women were taking their freedom in Christ literally and Paul
+is saying that they need to have some cultural sensitivity  
+
+
+\subsection{1 Timothy 2}
+
+\begin{myquote}
+(8) I desire, then, that in every place the men should pray, lifting
+up holy hands without anger or argument;
+
+(9) also that the women should dress themselves modestly and decently
+in suitable clothing, not with their hair braided, or with gold,
+pearls, or expensive clothes,
+
+(10) but with good works, as is proper for women who profess reverence
+for God.
+
+(11) Let a woman learn in silence with full submission.
+
+(12) I permit no woman to teach or to have authority over a man she
+is to keep silent.
+
+(13) For Adam was formed first, then Eve;
+
+(14) and Adam was not deceived, but the woman was deceived and became
+a transgressor.
+
+(1 Timothy 2, NRSV)
+\end{myquote}
+
+This is a difficult passage and to understand what is meant we will
+need to look closely at the context and the individual phrases. 
+
+Verses 8-10 are the easiest and are saying that Christians should be
+free from following stereotypical behaviour such as men behaving
+angrily and aggressively whilst women should not dress with excessive
+show. It does not mean women should dress as they did in puritan times
+but means not to be excessive and obsessive about dress. The verse
+about \emph{``doing good works''} simply means to show proper
+compassion to the needy, as all Christians should.  
+
+In verses 11 and 12 the Greek word for silence and silent is the same
+word used by Paul in 2 Thessalonians 3:12 for someone doing their work
+quietly. 
+
+\begin{myquote}
+(12) Now such persons we command and exhort in the Lord Jesus Christ to do their work quietly and to earn their own living.
+
+(2 Thessalonians 3, NRSV)
+\end{myquote}
+
+The NIV translates the the Thessalonians passage as
+\emph{``settle down''}. It does not mean \emph{``in silence''} as in
+not speaking but means conscientiously and
+with proper decorum. The rest of the sentence says \emph{in full
+  submission''} but in full submission to who? It probably means to
+God or the gospel. The interesting point here is that the passage
+actually confirms that women were learning, something novel in the
+first century.
+
+Verse 12 has the difficult phrase \emph{``to have authority''}. The
+Greek word \emph{αὐθεντεῖν (authenteo)} is not the usual word for
+authority, in fact it only occurs once in the New Testament, in this passage. It is an
+unusual word because it does not mean authority in a positive sense
+but has specific negative connotations and really means to domineer or
+to usurp authority.
+This is difficult to translate into English and most translations fail
+dismally with \emph{``have authority''}, the King James tries to
+convey the negative sense by using \emph{``usurp''}. The closest is probably the ERV which uses
+\emph{``have dominion over''}. We must also remember that the context
+is teaching and the first part of the sentence \emph{``permit no woman
+  to teach''} can also mean \emph{``I am not setting up women as a new
+  authority in teaching''}. Why would Paul say this? Well the letter
+was probably written to Timothy in Ephesus and that town was famous for
+a huge temple of Artemis (Diana) which was a cult run entirely by
+women. So Paul seems to have been saying that women in teaching were not
+to dominate like they did in the local temple cult. They were to learn
+and develop their gifts quietly, with proper respect and not develop
+into a new female dominated cult. The ISV tries to convey this in
+their translation.
+
+\begin{myquote}
+(12) Moreover, in the area of teaching, I am not allowing a woman to instigate conflict toward a man. Instead, she is to remain calm.
+
+(1 Timothy 2, ISV)
+\end{myquote}
+
+What does the verse about Adam and Eve mean? You need to consider the
+context; Paul is saying women should learn and study. The point of
+Adam and Eve is that Eve was deceived, women should learn and study so
+they won't be deceived.
+
+\chapter{Women in the New Testament}
+
+There is a danger in plucking verses out of the bible and trying to
+draw fundamental conclusions from them. It is important to look at the
+whole New Testament and understand what the whole text is telling us.
+To this end we will look at some of the women mentioned in the New
+Testament and try to understand who they were, what they were doing
+and what we can learn from them.
+
+\section{Priscilla}
+
+Priscilla and her husband Aquila are mentioned six times in the bible.
+Three times in Acts and then once each in Romans, 1 Corinthians and 2
+Timothy.
+
+\begin{myquote}
+(2) There he found a Jew named Aquila, a native of Pontus, who had
+recently come from Italy with his wife Priscilla, because Claudius had
+ordered all Jews to leave Rome.
+
+(18) After staying there for a considerable time, Paul said farewell to
+the believers and sailed for Syria, accompanied by Priscilla and
+Aquila. At Cenchreae he had his hair cut, for he was under a vow.
+
+(26) He began to speak boldly in the synagogue; but when Priscilla and Aquila heard him, they took him aside and explained the Way of God to him more accurately.
+
+(Acts 18, NRSV)
+\end{myquote}
+
+
+\begin{myquote}
+(3) Greet Prisca and Aquila, who work with me in Christ Jesus,
+
+(Romans 16, NRSV)
+
+
+(19) The churches of Asia send greetings. Aquila and Prisca, together with the church in their house, greet you warmly in the Lord.
+
+(1 Corinthians 16, NRSV)
+
+(19) Greet Prisca and Aquila, and the household of Onesiphorus.
+
+(2 Timothy 4, NRSV)
+\end{myquote}
+
+Priscilla and Aquila were Jewish converts who lived in Rome and were
+expelled during the Claudian persecution. During their exile they met
+and travelled extensively with Paul. 
+
+Unusually out of the five times Paul refers to Priscilla and Aquila
+together he puts Priscilla's name first, which is against standard
+protocol where you put the husband or the most important person first.
+It seems that Priscilla was the main leader or teacher of the two and she was
+supported by her husband Aquila. we know they had a Church meet in
+their house and we know that both Priscilla and Aquila taught Apollos.
+Clearly Paul had no issues with a women (Priscilla) teaching a man (Apollos). 
+
+
+\section{Phoebe}
+
+Phoebe is actually one of the most important women in the New
+Testament although she is only mentioned once at the end of Romans.
+
+\begin{myquote}
+
+(1) I commend to you our sister Phoebe, a deacon of the church at
+Cenchreae,
+
+(2) so that you may welcome her in the Lord as is fitting for the saints, and help her in whatever she may require from you, for she has been a benefactor of many and of myself as well.
+
+(Romans 16, NRSV)
+\end{myquote}
+
+Phoebe was a deacon in the Church and Cenchreae which was the port town
+connected to Corinth. Much as been made of Phoebe being a deacon and
+we need to be careful we don't just impose modern understanding on an
+ancient term. Deacon literally means servant but what exactly her role was is
+unclear although Paul often uses the term to refer to a minister of
+the gospel. Phoebe seems to have been one of the key figures in the
+Church and was probably involved in the leadership.
+
+What is more
+interesting is that she was entrusted to take Paul's letter to the
+Romans to Rome. The fact Phoebe lived in Cenchreae and could travel to
+Rome suggests she was probably a trader. When she took the letter to
+Rome it is most likely that Phoebe would have also had the job of
+taking the letter to the various little house groups, reading the
+letter out and answering any questions about the letter. The first
+public presentation of the letter to the Romans, regarded as Paul's
+most important letter, was by a
+Greek women trader visiting Rome from Philippi.
+
+\section{Lydia}
+
+Paul, Timothy and Silas have travelled to Philippi.
+
+\begin{myquote}
+(13) On the sabbath day we went outside the gate by the river, where
+we supposed there was a place of prayer; and we sat down and spoke to
+the women who had gathered there.
+
+(14) A certain woman named Lydia, a worshiper of God, was listening to
+us; she was from the city of Thyatira and a dealer in purple cloth.
+The Lord opened her heart to listen eagerly to what was said by Paul.
+
+(15) When she and her household were baptized, she urged us, saying, ``If you have judged me to be faithful to the Lord, come and stay at my home.'' And she prevailed upon us.
+
+(Acts 16, NRSV)
+\end{myquote}
+
+Lydia's name is derived from where she comes from, Lydia is from the
+region of Lydia, modern day western Turkey. She was probably a Greek
+and she lived in the the Roman settlement of
+Philippi. 
+
+Lydia was clearly an important woman locally, she was recognised as a
+trader, not the husband of a trader but a trader in her own right. We
+have no details of her household but when Lydia converts her household
+follows suit suggesting she was the leader of the household and she
+invites Paul and his colleagues to stay with her. Lydia may have been
+a widow but there is no evidence for or against this.
+
+Lydia is the first recorded Christian convert in Europe. Paul founded
+a Church in Philippi and quite possibly Lydia was the first member.
+
+\section{Junia}
+
+Another women mentioned in Romans 16 is Junia.
+
+\begin{myquote}
+(7) Greet Andronicus and Junia, my relatives who were in prison with
+me; they are prominent among the apostles, and they were in Christ
+before I was.
+
+(Romans 16, NRSV)
+\end{myquote}
+
+Junia's reference in the bible has an interesting history. Paul says
+Andronicus and Junia are called \emph{``prominent among the
+  apostles''}. The term apostle was used to refer to the twelve but
+was also used as a general term for people who where entrusted to
+spread the gospel. Andronicus and Junia were probably husband and wife
+but early bible copyists did not like the idea of a woman \emph{Junia}
+being considered an apostle so they altered the text to
+\emph{``Junias''}, the masculine version. So in the ancient texts you
+get both versions. However there is no known use of the male name
+\emph{Junias} in any ancient text so there is no doubt that Junia was female.
+
+\section{Euodia \& Syntyche}
+
+\begin{myquote}
+(2) I urge Euodia and I urge Syntyche to be of the same mind in the
+Lord.
+
+(3) Yes, and I ask you also, my loyal companion, help these women, for they have struggled beside me in the work of the gospel, together with Clement and the rest of my co-workers, whose names are in the book of life.
+
+(Philippians 4, NRSV)
+\end{myquote}
+
+Euodia and Syntyche are mentioned in Paul's letter to Philippians.
+They are two women who clearly have roles in spreading the gospel in
+Philippi and are prominent women in the Church. However they have some
+disagreement and Paul is urging them to reconcile. Paul regards them
+as \emph{co-workers}. 
+
+
+
+\backmatter
+
+\nocite{NRSV,NIV,ISV,Lexham2010,ISV1996,Wright2004}
+
+%\nocite{*}
+\printbibliography
+
+
+\end{document}
+
+% Local Variables:
+% TeX-engine: xetex
+% End:
