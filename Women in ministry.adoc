@@ -21,79 +21,79 @@ Sed dominus noster Christus veritatem se, non consuetudinem cognominavit.
 But Christ our lord has called himself truth, not custom.
 ____
           
-
 Tertullian was a prolific Christian writer in Carthage around 200AD
-and even in those early days of Christianity customs and traditions were becoming
-embedded in the Church that had little to do with
-Christ or the gospel. Tertullian makes the perceptive comment that Christ and the gospel is about truth
-and not about maintaining traditions and customs. What Tertullian said eighteen
-hundred years ago is even truer today. The Church has a raft of
-traditions and customs that people are led to believe are core to
-their Christian faith whereas in reality many of those beliefs have
-nothing to do with Christianity, have no biblical basis and were
-unheard of in the early Church. But they are defended and repeated
-religiously, often to the detriment of the Church and the gospel.
+and even in those early days of Christianity customs and traditions
+were becoming embedded in the Church that had little to do with Christ
+or the gospel. Tertullian makes the perceptive comment that Christ and
+the gospel is about truth and not about maintaining traditions and
+customs. What Tertullian said eighteen hundred years ago is even truer
+today. The Church has a raft of traditions and customs that people are
+led to believe are core to their Christian faith whereas in reality
+many of those beliefs have nothing to do with Christianity, have no
+biblical basis and were unheard of in the early Church. But they are
+defended and repeated religiously, often to the detriment of the
+Church and the gospel.
 
 This series is about some of those traditional customs and beliefs,
 how they came about, why they are false and why they should be
-challenged. As Christians we have a duty to defend the
-truth and when that truth conflicts with our traditions we
-have a duty to honestly re-examine those traditions, understand them for
-what they are and discard them if they are blocking or interfering with the message of the
-gospel.
+challenged. As Christians we have a duty to defend the truth and when
+that truth conflicts with our traditions we have a duty to honestly
+re-examine those traditions, understand them for what they are and
+discard them if they are blocking or interfering with the message of
+the gospel.
 
-\mainmatter
-\pagestyle{scrheadings}
-
-\chapter{Introduction}
-
-\chapter{Women in ministry}
-
-\section{The gospels}
-
-\subsection{The resurrection}
+== Women in the New Testament
 
 A point often made is that Jesus chose twelve male apostles. But the
 women had a prominent role in the story. The apostles all hid away
 during the crucifixion and it was the women who first went to the
 tomb, are the first to see the risen Jesus and are the first to
-believe in the risen Jesus. There is a symmetry here: Eve may have
-fallen first but it was the women ho first believed in a resurrected
-Christ. It was the women who took the news to the apostles, the first
+believe in the risen Jesus. There is a symmetry here: we are often
+reminded Eve may have fallen first but you rarely hear that it was the
+women who went to the empty tomb and first believed in a resurrected
+Christ. If you define a Christian as someone who believes in the
+resurrected Christ then there was a brief time when all Christians
+were women!
+
+It was the women who took the news to the apostles, the first
 people who were the first to spread the good news of Jesus's
-resurrection was when the women told what they had seen to the apostles.
+resurrection was when the women told what they had seen to the
+apostles.
 
-\subsection{Mary \& Martha}
+So lets explore the story of a few of those early women.
 
-The story of Mary and Martha in Luke 10 is well known, the busy Martha who
-complained that her sister Mary was not doing any work.  
+=== Mary & Martha
 
-\begin{myquote}
-(39) She had a sister named Mary, who sat at the Lord’s feet and listened to what he was saying.
+The story of Mary and Martha in Luke 10 is well known, the busy Martha
+who complained that her sister Mary was not doing any work.
 
-(Luke 10, NRSV)
-\end{myquote}
+[quote, Luke 10, NRSV]
+____
+(39) She had a sister named Mary, who sat
+at the Lord’s feet and listened to what he was saying.
+____
 
 There are several points here that would surprise a first century
 reader. Firstly Mary should not be amongst the men, she should be in
-the background doing her duties like Martha. Secondly to \emph{``sit
-  at the Lord's feet''} means more than to just literally sit on the
+the background doing her duties like Martha. Secondly to _"sit
+at the Lord's feet"_ means more than to just literally sit on the
 floor and listen to stories. It means to be a pupil. Compare it to
 Paul's short autobiography in Acts 22.
 
-\begin{myquote}
-(3) ``I am a Jew, born in Tarsus in Cilicia, but brought up in this
+[quote, Acts 22, NRSV]
+____
+(3) "I am a Jew, born in Tarsus in Cilicia, but brought up in this
 city at the feet of Gamaliel, educated strictly according to our
-ancestral law\ldots''
-
-(Acts 22, NRSV)
-\end{myquote}
+ancestral law..."
+____
 
 So Mary was an early pupil of Jesus and in those days you learnt from
 a teacher for the purposes of passing message on. Mary was learning
-from Jesus to pass the message on herself.
+from Jesus to pass the message on herself. Mary was training to be a
+disciple along with the men and that was unheard of in first century
+Judaism. In the smallest phrase a radical story was hidden.
 
-\section{Paul}
+== Paul
 
 \subsection{Acts}
 
